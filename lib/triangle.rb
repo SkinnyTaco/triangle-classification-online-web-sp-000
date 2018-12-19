@@ -9,10 +9,11 @@ class Triangle
       rescue TriangleError => error 
         puts error.message
       end
+    else
+      @side_one = side_one
+      @side_two = side_two
+      @side_three = side_three
     end
-    @side_one = side_one
-    @side_two = side_two
-    @side_three = side_three
   end
   
   def kind 
