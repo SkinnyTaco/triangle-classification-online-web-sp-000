@@ -8,7 +8,9 @@ class Triangle
     @side_three = side_three
     if side_one <= 0 || side_two <= 0 || side_three <= 0 
       begin
-      raise 
+      raise TriangleError
+      end
+    end
   end
   
   def kind 
