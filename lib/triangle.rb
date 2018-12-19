@@ -1,3 +1,11 @@
 class Triangle
-  # write code here
+  
+  def kind 
+    
+  end
+  
+  TriangleError < StandardError
+  
+  end
+  
 end
