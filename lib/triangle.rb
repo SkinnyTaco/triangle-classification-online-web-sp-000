@@ -4,7 +4,7 @@ class Triangle
     
   end
   
-  TriangleError < StandardError
+  class TriangleError < StandardError
   
   end
   
